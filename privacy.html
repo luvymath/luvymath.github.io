@@ -5,117 +5,205 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LuvyMath — Privacy Policy</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-           max-width: 720px; margin: 40px auto; padding: 0 24px;
-           color: #1a1a2e; background: #f9f9ff; line-height: 1.7; }
-    h1   { color: #0f0c29; font-size: 2rem; margin-bottom: 4px; }
-    h2   { color: #0f0c29; font-size: 1.1rem; margin-top: 2rem; }
-    .date { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
-    ul   { padding-left: 1.4rem; }
-    li   { margin-bottom: 6px; }
-    a    { color: #4ECDC4; }
-    section { background: #fff; border-radius: 12px; padding: 20px 24px;
-              margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
-    footer { margin-top: 40px; font-size: 0.85rem; color: #aaa; text-align: center; }
-    .logo  { display: block; margin: 0 auto 16px auto; width: 100px; height: 100px; object-fit: contain; }
-    .header-wrap { text-align: center; margin-bottom: 8px; }
+           background: #FAF8EC; color: #1a1a2e; line-height: 1.7; }
+
+    nav {
+      background-color: rgba(250, 248, 236, 0.97);
+      border-bottom: 1px solid rgba(78, 205, 196, 0.25);
+      padding: 14px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-brand::before {
+      content: "\2665";
+      color: #e74c3c;
+      margin-right: 6px;
+      font-size: 1.3rem;
+      font-weight: 800;
+    }
+
+    .nav-brand {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #2a9d8f;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+    }
+
+    .nav-links a {
+      color: #ffffff;
+      background: #2a9d8f;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 7px 16px;
+      border-radius: 20px;
+      transition: opacity 0.2s;
+    }
+
+    .nav-links a:hover { opacity: 0.85; }
+
+    .page-wrap {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+
+    .header-wrap { text-align: center; margin-bottom: 32px; }
+
+    .logo { display: block; margin: 0 auto 16px auto; width: 100px; height: 100px; object-fit: contain; }
+
+    h1 { color: #1a1a2e; font-size: 2rem; margin-bottom: 4px; }
+
+    .date { color: #888; font-size: 0.9rem; margin-bottom: 8px; }
+
+    h2 { color: #2a9d8f; font-size: 1.1rem; margin-top: 0; margin-bottom: 12px; font-weight: 700; }
+
+    ul { padding-left: 1.4rem; }
+
+    li { margin-bottom: 6px; font-size: 0.95rem; color: #333; }
+
+    a { color: #2a9d8f; }
+
+    section {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      border: 1px solid rgba(78, 205, 196, 0.15);
+    }
+
+    section p { font-size: 0.95rem; color: #333; margin-bottom: 12px; }
+
+    section p:last-child { margin-bottom: 0; }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #aaa;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    footer a { color: #2a9d8f; text-decoration: none; }
   </style>
 </head>
 <body>
 
-<div class="header-wrap">
-  <img src="luvy-icon.png" alt="LuvyMath — Luvy the bear" class="logo">
-  <h1>Privacy Policy</h1>
-  <p class="date">Effective Date: May 20, 2026</p>
+<nav>
+  <a href="https://luvymath.com" class="nav-brand">LuvyMath</a>
+  <div class="nav-links">
+    <a href="https://luvymath.com/#support">Support</a>
+    <a href="terms.html">Terms of Service</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="header-wrap">
+    <img src="luvy-icon.png" alt="LuvyMath — Luvy the bear" class="logo">
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective Date: May 20, 2026</p>
+  </div>
+
+  <section>
+    <h2>Overview</h2>
+    <p>LuvyMath believes in partnered engagement — equipping parents with the tools to guide their child toward math success. Because when parents and children work through problems together, real learning happens. We take privacy seriously, especially for families.</p>
+  </section>
+
+  <section>
+    <h2>Data We Collect</h2>
+    <p>Minimal data only:</p>
+    <ul>
+      <li>Apple ID (used solely for subscription verification via Apple's systems)</li>
+      <li>Subscription status (managed entirely by Apple In-App Purchase)</li>
+      <li>Your math problems are never saved on our servers — they are only stored on your phone. You can clear your history anytime from within the app.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Math Problem Processing</h2>
+    <p>We take privacy seriously when it comes to your math problems.</p>
+    <ul>
+      <li>Problems are used only to compute your answer — never stored, profiled, or shared</li>
+      <li>No personal information is attached to or involved in math processing</li>
+      <li>All problems are transmitted securely and encrypted</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+      <li>Personal information (name, email address, physical address)</li>
+      <li>Location data</li>
+      <li>Photos or camera data (processed on-device only via Apple Vision — images never leave your phone)</li>
+      <li>Usage analytics or crash reporting</li>
+      <li>Advertising identifiers</li>
+      <li>Device identifiers beyond what Apple provides for subscription verification</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How We Use Data</h2>
+    <ul>
+      <li>Problem history is stored on your device only</li>
+      <li>Math problems are used solely to compute your answer</li>
+      <li>Subscription data is handled entirely by Apple In-App Purchase — we do not see payment details</li>
+      <li>No data is sold to third parties — ever</li>
+      <li>No advertising or behavioral tracking of any kind</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children's Privacy (COPPA)</h2>
+    <p>LuvyMath is designed to support partnered engagement between parents and children. For users under 13, we recommend parental supervision and involvement.</p>
+    <ul>
+      <li>We do not collect personally identifiable information from any user, regardless of age</li>
+      <li>All external links require passing a parental gate — a math challenge designed to require adult assistance</li>
+      <li>No advertising, no tracking, no data sold to third parties</li>
+      <li>Problem history is stored locally on the device only — never on our servers</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data Security</h2>
+    <p>All communication between the LuvyMath app and our backend is encrypted using HTTPS/TLS. Our backend uses secure cloud infrastructure with additional access controls. API keys for third-party services are stored as encrypted server-side secrets and never included in the app binary.</p>
+  </section>
+
+  <section>
+    <h2>Your Rights</h2>
+    <p>Since we do not collect or store personal information, there is no personal data to request, correct, or delete. Your problem history lives only on your device and can be cleared at any time from within the app. Uninstalling the app removes all locally stored data.</p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>We will update this policy if our data practices change. The effective date at the top of this page will reflect any updates. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For privacy questions or concerns: <a href="mailto:support@luvymath.com">support@luvymath.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2026 Barbara Alexander &nbsp;|&nbsp; LuvyMath &nbsp;|&nbsp;
+    <a href="terms.html">Terms of Service</a> &nbsp;|&nbsp;
+    <a href="https://luvymath.com">luvymath.com</a>
+  </footer>
+
 </div>
-
-<section>
-  <h2>Overview</h2>
-  <p>LuvyMath helps parents tutor their children through math. We take privacy seriously, especially for families.</p>
-</section>
-
-<section>
-  <h2>Data We Collect</h2>
-  <p>Minimal data only:</p>
-  <ul>
-    <li>Apple ID (used solely for subscription verification via Apple's systems)</li>
-    <li>Problem history (stored locally on your device — never on our servers)</li>
-    <li>Subscription status (managed entirely by Apple In-App Purchase)</li>
-    <li>Math problems you submit for solving (transmitted to our secure backend when on-device solving is not possible — see below)</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Math Problem Processing</h2>
-  <p>When our on-device engine cannot solve a problem, it is sent to our secure Cloudflare-hosted backend, which forwards it to Wolfram Alpha for computation. For subscribers, answers may be enriched by Anthropic's Claude AI for plain-English explanations.</p>
-  <ul>
-    <li>Problems are transmitted over HTTPS (encrypted in transit)</li>
-    <li>Problems are used only to compute your answer — not stored, profiled, or shared</li>
-    <li>No personal information is attached to the problem text</li>
-    <li>Wolfram Alpha's privacy policy applies to their computation: <a href="https://www.wolfram.com/legal/privacy/wolfram/" target="_blank">wolfram.com/legal/privacy</a></li>
-    <li>Anthropic's privacy policy applies to Claude enrichment: <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
-  </ul>
-  <p>Simple problems (arithmetic, basic algebra, fractions, and more) are solved entirely on-device and never leave your phone.</p>
-</section>
-
-<section>
-  <h2>Data We Do NOT Collect</h2>
-  <ul>
-    <li>Personal information (name, email address, physical address)</li>
-    <li>Location data</li>
-    <li>Photos or camera data (processed on-device only via Apple Vision — images never leave your phone)</li>
-    <li>Usage analytics or crash reporting</li>
-    <li>Advertising identifiers</li>
-    <li>Device identifiers beyond what Apple provides for subscription verification</li>
-  </ul>
-</section>
-
-<section>
-  <h2>How We Use Data</h2>
-  <ul>
-    <li>Problem history is stored on your device only</li>
-    <li>Math problems sent to our backend are used solely to compute your answer</li>
-    <li>Subscription data is handled entirely by Apple In-App Purchase — we do not see payment details</li>
-    <li>No data is sold to third parties — ever</li>
-    <li>No advertising or behavioral tracking of any kind</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Children's Privacy (COPPA)</h2>
-  <p>LuvyMath is a math tutoring tool designed to help parents support their child's math education. For users under 13, we recommend parental supervision and involvement.</p>
-  <ul>
-    <li>We do not collect personally identifiable information from any user, regardless of age</li>
-    <li>All external links require passing a parental gate — a math challenge designed to require adult assistance</li>
-    <li>No advertising, no tracking, no data sold to third parties</li>
-    <li>Problem history is stored locally on the device only — never on our servers</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Data Security</h2>
-  <p>All communication between the LuvyMath app and our backend is encrypted using HTTPS/TLS. Our backend uses Cloudflare's infrastructure with additional access controls. API keys for third-party services are stored as encrypted server-side secrets and never included in the app binary.</p>
-</section>
-
-<section>
-  <h2>Your Rights</h2>
-  <p>Since we do not collect or store personal information, there is no personal data to request, correct, or delete. Your problem history lives only on your device and can be cleared at any time from within the app. Uninstalling the app removes all locally stored data.</p>
-</section>
-
-<section>
-  <h2>Changes to This Policy</h2>
-  <p>We will update this policy if our data practices change. The effective date at the top of this page will reflect any updates. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <p>For privacy questions or concerns: <a href="mailto:hello@luvymath.com">hello@luvymath.com</a></p>
-</section>
-
-<footer>
-  &copy; 2026 Barbara Alexander &nbsp;|&nbsp; LuvyMath &nbsp;|&nbsp;
-  <a href="terms.html">Terms of Service</a>
-</footer>
-
 </body>
 </html>
